@@ -22,8 +22,8 @@ export function Navbar() {
 
     function handleSearch(e: any) {
         e.preventDefault()
-        navigate(`/search?q=${search}&page=1`)
         window.scrollTo({ top: 0, behavior: 'smooth' });
+        navigate(`/search?q=${search}&page=1`)
     }
 
     return (
