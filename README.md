@@ -12,7 +12,7 @@ This is a project to display my repositories of github, it uses some really cool
 </p>
 
 <p align="center">
-  <img alt="githubbanner" src="">
+  <img alt="githubbanner" src="https://raw.githubusercontent.com/gustafer/umovies/main/public/githubbanner.png">
 </p>
 
 <br>
@@ -20,6 +20,8 @@ This is a project to display my repositories of github, it uses some really cool
 ## 🚀 Technologies
 
 This project was developed using the following technologies:
+
+- [The Movie Database (TMDB)](https://developer.themoviedb.org/reference/intro/getting-started)
 
 - [React](https://react.dev/), [TailwindCSS](https://tailwindcss.com/) and [shadcn/ui](https://ui.shadcn.com/)
 
@@ -33,20 +35,20 @@ This project was developed using the following technologies:
 
 ### This project uses the TMDB api to show movies.
 
-### [See how it actually is live]()
+### [See how it actually is live](https://umoviesustav.vercel.app/)
 
 ## 💾 Installation
 
 <h3 align="center"> Clone this rep :</h3>
 
 ```
- git clone https://github.com/gustafer/
+ git clone https://github.com/gustafer/umovies.git
 ```
 
 <h3 align="center"> Open your folder :</h3>
 
 ```
-cd 
+cd umovies
 ```
 
 <h3 align="center"> Install dependencies :</h3>
@@ -78,7 +80,7 @@ yarn dev
 
 ## 🔖 Usage
 
-### Its as simple as going to .envEXAMPLE and changing the github user and [BEARER]() to yours if you wish to use graphql to get the pinned repos.
+### Its as simple as going to .envEXAMPLE and changing the github user and [APIKEY](https://developer.themoviedb.org/reference/intro/getting-started) to yours if you wish to use graphql to get the pinned repos.
 
 example:
 
@@ -97,6 +99,6 @@ example:
 
 ## 📖 License
 
-This project has [MIT]() license.
+This project has [MIT](https://github.com/gustafer/umovies/blob/main/MIT-LICENSE.txt) license.
 
 ---
