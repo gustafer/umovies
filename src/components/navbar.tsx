@@ -22,7 +22,7 @@ export function Navbar() {
 
     function handleSearch(e: any) {
         e.preventDefault()
-        window.scrollTo({ top: 0, behavior: 'smooth' });
+        window.scrollTo({ top: 0 });
         navigate(`/search?q=${search}&page=1`)
     }
 
